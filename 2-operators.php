@@ -7,7 +7,6 @@
 
 /**? Type of Operators
  * 
- * 
  *  Arithmatic operator (+,-,*,/,%,**)
  *  Comparison operator (<,>,<=,>=,==,===,!=)
  *  Assignment operator (=,+=,.=,-=,*=,/=)

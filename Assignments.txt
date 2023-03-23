@@ -1,0 +1,3 @@
+(23 March 2023 Thursday)
+==> Make a php program to predict class for a student by taking his age. classify groups as montisori , primary, middle,high,higher secondary,college,specialization
+=====================================================================================
