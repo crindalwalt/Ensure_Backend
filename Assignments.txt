@@ -1,6 +1,11 @@
+==================================================================================
 (23 March 2023 Thursday)
 ==> Make a php program to predict class for a student by taking his age. classify groups as montisori , primary, middle,high,higher secondary,college,specialization
 
 Ahsan: 10 ;
 Danial: ; pending
 =====================================================================================
+(29 March 2023 Wednesday)
+==> Make a attractive looking form which contains name,email,age,password,confirm password and validate if password and confirm password matches or not if matches show the details in a beautifull format
+Due: 30 March 2023
+===================================================================================
