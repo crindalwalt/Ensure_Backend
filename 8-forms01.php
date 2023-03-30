@@ -20,23 +20,23 @@
             } else {
                 echo "you are underage";
             }
-        }else{
+        } else {
             echo "age not given";
         }
         ?></b><br>
 
-<b><?php
+    <b><?php
 
-if (isset($_POST["pass"])) {
-    if ($_POST['pass'] == $_POST['cpass'] ) {
-        echo "<p style='color:green;'>Password Matches</p>";
-    } else {
-        echo "<p style='color:red;'>Password does not Matches</p>";
-    }
-}else{
-    echo "password not given";
-}
-?></b><br>
+        if (isset($_POST["pass"])) {
+            if ($_POST['pass'] == $_POST['cpass']) {
+                echo "<p style='color:green;'>Password Matches</p>";
+            } else {
+                echo "<p style='color:red;'>Password does not Matches</p>";
+            }
+        } else {
+            echo "password not given";
+        }
+        ?></b><br>
 
     <hr>
     <h1>Fill out the form</h1>
@@ -49,5 +49,6 @@ if (isset($_POST["pass"])) {
         <input type="submit" value="Submit"><br><br>
     </form>
 </body>
+
 
 </html>
