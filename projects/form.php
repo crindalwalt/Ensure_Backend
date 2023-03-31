@@ -20,14 +20,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // if ($emptyResult) {
     //     $emptyInput = true;
     // } else {
-       
-    // }
 
-     // validating user password
-     if ($password === $confirm_password) {
-        $account_creation = true;
+    // }
+    if (empty($_POST['fname']) or empty($_POST['lname']) or empty($_POST['email']) or empty($_POST['password']) or empty($_POST['confirm_password'])) {
+        // echo "please fill out all fields";
+        $emptyInput = true;
     } else {
-        $password_mismatch = true;
+
+
+
+        // validating user password
+        if ($password === $confirm_password) {
+            $account_creation = true;
+        } else {
+            $password_mismatch = true;
+        }
     }
 }
 
@@ -59,12 +66,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
     <style>
+
         * {
             font-family: 'Alkatra', cursive;
         }
 
         .bg-cont {
             background-color: #efefef;
+        }
+        .bg-subtle{
+            background-color: var(--bs-gray-400);
         }
     </style>
 </head>
@@ -122,8 +133,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>';
     }
     if ($emptyInput) {
-        echo '    <div id="alert" class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Warning</strong>Fill out all fields
+        echo '    <div id="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Warning</strong> please fill out all fields
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>';
     }
@@ -132,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-    <div class="container rounded-5 shadow-lg bg-cont p-4 my-5 w-50">
+    <div class="container rounded-5 shadow-lg bg-subtle p-4 my-5 w-50">
         <h1>Fill out the Form</h1>
         <hr>
         <form action="form.php" method="POST">
