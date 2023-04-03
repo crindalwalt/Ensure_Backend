@@ -3,11 +3,12 @@ echo "<h1>Database connection</h1>";
 $host = "127.0.0.1";
 $username = "root";
 $password = "";
-$connection = mysqli_connect($host,$username,$password);
+$database = "ensure";
+$connection = mysqli_connect($host,$username,$password,$database);
 if($connection){
-    echo "connection is successful";
+    echo "connection is successful with $database";
 }else{
-    echo "connection is failed";
+    echo "connection is failed with $database";
 }
 
 ?>

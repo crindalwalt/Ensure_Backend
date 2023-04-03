@@ -11,3 +11,9 @@ Due: 30 March 2023
 Ahsan: 10;
 Danial: ; pending
 ===================================================================================
+(3 April 2023 Monday)
+==> Create a database through phpmyadmin and assign 5 columns and then create connection with that database through PHP and validate it and then access the number of rows comming from the database
+Due: 4 April 2023
+Ahsan: ; pending;
+Danial: ; pending
+===================================================================================
