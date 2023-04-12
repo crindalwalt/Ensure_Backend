@@ -12,20 +12,22 @@
 
 <body>
 
-    <?php include "partials/header.php"  ?>
+    <?php
+        include "partials/header.php"
+    ?>
 
     <section id="app" class="bg-grad-1">
         <div class="container py-5  d-flex justify-content-center align-items-center flex-column w-100">
             <h1 class="mb-4">Take control of what to do by <span class="text-success">iTODO</span> </h1>
-            <form action="backend/form.php" method="GET">
+            <form action="backend/add.php" method="POST">
                 <div class="w-100 bg-dim p-4 rounded-3 shadow-md">
                     <div class="mb-3">
                         <label for="title" class="form-label">Title</label>
-                        <input type="text" class="form-control" id="title">
+                        <input type="text" class="form-control" id="title" name="title">
                     </div>
                     <div class="mb-3">
                         <label for="desc" class="form-label">Description</label>
-                        <textarea class="form-control" id="desc" rows="3"></textarea>
+                        <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
                     </div>
                     <div class="mb-3">
                         <button type="submit" class="btn btn-md btn-primary d-flex justify-content-center align-items-center">
@@ -121,7 +123,7 @@
 
 
 
-   <?php include "partials/footer.php" ?>
+    <?php include "partials/footer.php" ?>
 
     <script src="bootstrap/bootstrap.bundle.js"></script>
 </body>
