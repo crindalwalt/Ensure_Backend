@@ -7,7 +7,7 @@ $database = "todo";
 
 $connection = mysqli_connect($host,$username,$password,$database);
 if($connection){
-    echo "connection is successfull";
+    // echo "connection is successfull";
 }else{
     echo "connection is failed";
 }

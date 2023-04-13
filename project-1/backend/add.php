@@ -22,7 +22,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $query = "INSERT INTO `todo_items` ( `title`, `description`) VALUES ( '$title', '$description');";
         $result = mysqli_query($connection,$query);
+        if($result){
+            $home = "http://localhost/server/Teaching/class-4-ensure/project-1/index.php?status=success";
+            
+        }else{
+            $home = "http://localhost/server/Teaching/class-4-ensure/project-1/index.php?status=failed";
 
+        }
+        header("Location:$home");
 
 
 
