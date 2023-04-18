@@ -2,18 +2,24 @@
 (23 March 2023 Thursday)
 ==> Make a php program to predict class for a student by taking his age. classify groups as montisori , primary, middle,high,higher secondary,college,specialization
 
-Ahsan: 10 ;
+Ahsan: 10/10 ;
 Danial: ; pending
 =====================================================================================
 (29 March 2023 Wednesday)
 ==> Make a attractive looking form which contains name,email,age,password,confirm password and validate if password and confirm password matches or not if matches show the details in a beautifull format
 Due: 30 March 2023
-Ahsan: 10;
+Ahsan: 10/10;
 Danial: ; pending
 ===================================================================================
 (3 April 2023 Monday)
 ==> Create a database through phpmyadmin and assign 5 columns and then create connection with that database through PHP and validate it and then access the number of rows comming from the database
 Due: 4 April 2023
-Ahsan: ; pending;
+Ahsan: 10/10;
+Danial: ; pending
+===================================================================================
+(`8 April 2023 Tuesday)
+==> Create a complete full stack php application which can contain the employees data (comprehensive) and also allow to Read,Create and Delete all Employee. Application must come with a nice user interface 
+Due: 26 April 2023
+Ahsan: ; pending
 Danial: ; pending
 ===================================================================================
