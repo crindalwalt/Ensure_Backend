@@ -23,3 +23,9 @@ Due: 26 April 2023
 Ahsan: ; pending
 Danial: ; pending
 ===================================================================================
+(28 April 2023 Friday)
+==> Copy the template folder provided in your github repo and start coding . Add another page called courses and add courses in cards 
+Due: 1,2 May 2023
+Ahsan: ; pending
+Danial: ; pending
+===================================================================================
